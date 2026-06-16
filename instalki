@@ -1,7 +1,0 @@
-Brakujace sciezki do katalogu z Pythonem w systemie Linux mogą powodować problemy z uruchamianiem skryptów Pythona. 
-Aby dodać katalog z Pythonem do zmiennej 
-PATH, można użyć następujących komend w terminalu: 
-Ustawienia komendami w terminalu Linux
-echo 'export PATH="/var/data/python/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-echo $PATH
